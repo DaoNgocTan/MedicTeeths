@@ -1,0 +1,89 @@
+.booking-modal-container{
+    width: 550px;
+    .booking-modal-content{
+        display: flex;
+        flex-direction: column;
+
+        .booking-modal-header{
+            padding: 10px;
+            border-bottom: 1px solid rgb(167, 160, 205);
+            background-color: rgb(20, 61, 165);
+            height: 60px;
+            text-align: center;
+
+            .left{
+                font-size: 25px;
+                font-weight: 600;
+                color: whitesmoke;
+                position: relative;
+                
+                
+            }
+
+            .right{
+                float: right;
+                cursor: pointer;
+                color: whitesmoke;
+            }
+        }
+        .doctor-infor{
+            text-align: center;
+            font-size: 14px;
+            font-style: italic;
+            color: rgb(43, 170, 182);
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+
+
+        .booking-modal-body{
+            padding: 20px;
+            height: 100%;
+
+            .price{
+                margin-top: 10px;
+                font-weight: 550;
+            }
+    
+        }
+        .row{
+            font-size: 17px;
+        }
+
+        .booking-modal-footer{
+            border-top: 1px solid #ccc;
+            padding: 10px;
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+
+
+            button{
+                border: none;
+                outline: none;
+                padding: 5px 8px;
+                border-radius: 3px;
+            }
+
+            .btn-booking-confirm1{
+                background-color:whitesmoke;
+                font-size: 17px;
+            }
+            .btn-booking-confirm1:hover{
+                background-color: rgb(129, 214, 160);
+                font-size: 17px;
+            }
+
+            .btn-booking-cancel1{
+                background-color: whitesmoke;
+                font-size: 17px;
+            }
+            .btn-booking-cancel1:hover{
+                background-color: rgb(236, 82, 82);
+                font-size: 17px;
+            }
+        }
+    }
+
+}

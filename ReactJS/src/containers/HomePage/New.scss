@@ -1,0 +1,113 @@
+.test-post{
+    // margin-top: 230px;
+    .entry-title{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0 20px;
+    background: url(../../assets/Cliniccccc.jpg) 0 0 no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    }
+    .entry-title strong{
+        vertical-align: sub;
+    font-weight: 700;
+    font-size: 40px;
+    color: #d5781d;
+    -webkit-text-stroke: 1px #fff;
+    }
+    .entry-title p{
+        -webkit-box-flex: 1;
+    flex: 1;
+    line-height: 1.2;
+    font-style: italic;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    }
+
+    .wrapper-check{
+        margin: 0 10px;
+    padding: 20px 0 0 0;
+        .title-1{
+            margin-bottom: 15px;
+    padding: 5px 10px;
+    background: #ba0101;
+    color: #fff;
+        }
+        label{
+            display: block;
+            width: 100%;
+            padding: 0 5px;
+            margin: 5px 0;
+            font-weight: 400;
+
+        }
+        
+    }
+    .test-submit {
+        overflow: hidden;
+    background: #e4e4e4;
+    padding: 20px 0;
+    font-size: 16px;
+    margin: 20px 0 0 0;
+        .col-left {
+            border-left: 5px solid #ba0101;
+            padding: 0 10px;
+            float: left;
+             width: 50%;
+}
+           }
+         .col-right{
+            text-align: center;
+            padding: 0 20px;
+            
+            float: left;
+            width: 50%;
+            input{
+                width: 100%;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+            }
+
+
+            .btn-action{
+                input{
+                    border-radius: 9999px;
+                text-align: center;
+                color: #fff;
+                margin: 0 5px;
+                background: #c33;
+                padding: 3px 7px;
+                display: inline-block;
+                width: auto;
+                border: none;
+                margin-right: 20px;
+                font-size: 14px;
+            }
+                a{
+                    background: #006c7b;
+                    border-radius: 9999px;
+                text-align: center;
+                color: #fff;
+                margin: 0 5px;
+                padding: 6px 7px;
+                border: none;
+                font-size: 14px;
+
+                }
+
+            }
+    }
+    .youtube{
+        padding-top: 3px;
+        border-bottom: 2px solid rgb(166, 163, 163);
+    }
+
+
+    }

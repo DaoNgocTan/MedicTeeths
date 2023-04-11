@@ -1,0 +1,168 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis:400,600" rel="stylesheet';
+
+$dosis: 'Dosis', sans-serif;
+$black: #000000;
+$white: #ffffff;
+$grey: #ebebeb;
+// $seafoam: #b1ebef;
+
+body {
+  background-image: url("../../assets/Cliniccccc.jpg");  
+}
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+  }
+
+
+.login-background {
+    background-image: url("../../assets/Cliniccccc.jpg");  
+    height: 100vh;
+    .login-container {
+        width: 400px;
+        border-radius: 10px;
+        background-color: white;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 400px;
+        padding: 0 20px;
+
+
+        .login-content {
+            padding: 10px;
+
+            .text-login {
+                text-align: center;
+                font-weight: 600;
+                font-size: 24px;
+                padding-top: 10px;
+            }
+
+            .login-input {
+                margin: 7px 0;
+
+                .custom-input-password {
+                    position: relative;
+
+                    i {
+                        position: absolute;
+                        right: 5px;
+                        top: 10px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .btn-login {
+                display: inline-block;
+                background-color: grey;
+                font-family: $dosis;
+                font-size: 16px;
+                font-weight: 600;
+                color: $black;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                height: 50px;
+                line-height: 50px;
+                margin-right: 25px;
+                padding: 0 50px;
+                border: none;
+                border-right: 1px solid $black;
+                position: relative;
+                transition: color 0.2s ease-in-out 0s;
+                margin-left: 30%;
+                margin-top: 20px;
+                border-radius: 12px;
+                
+                &:before,
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                }
+
+                &:before {
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: $black;
+                    z-index: -1;
+                }
+
+                &:after {
+                    right: -1px;
+                    width: 1px;
+                    height: 50px;
+                    background-color: $black;
+                    transform: rotate(-90deg);
+                    transform-origin: center;
+                    z-index: 0;
+                    transition: width 0.3s ease-in-out, 
+                    transform 0.2s ease-in-out 0.3s, 
+                    z-index 0.15s ease-in-out;
+                }
+
+                &:hover {
+                    color: $white;
+                    transition: color 0.2s ease-in-out 0.25s;
+                    border-radius: 20px;
+                &:after {
+                    z-index: -1;
+                    transform: rotate(0deg);
+                    width: 100%;
+                    transition: transform 0.2s ease-in-out, 
+                    width 0.3s ease-in-out 0.2s;
+                }
+                }
+}
+
+            .forgot-password {
+                font-size: 12px;
+            }
+
+            .social-login {
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                margin-top: 10px;
+
+                .google {
+                    font-size: 35px;
+                    background: #c32424;
+                    border-radius: 60%;
+                    height: 45px;
+                    width: 20x;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    margin-right: 10px;
+                }
+
+                .facebook {
+                    font-size: 40px;
+                    background: #307aff;
+                    border-radius: 50%;
+                    height: 45px;
+                    width: 50x;
+                    display: grid;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+
+        }
+
+
+    }
+
+}

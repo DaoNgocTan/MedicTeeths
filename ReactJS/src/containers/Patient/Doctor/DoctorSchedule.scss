@@ -1,0 +1,88 @@
+.doctor-schedule-container{
+    border-right: 1px solid #ddd;
+    height: 100%;
+
+    .all-schedule{
+    font-size: 18px;
+
+        select{
+            border-bottom: 1px solid #ddd;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            cursor: pointer;
+            padding: 10px 0;    
+            color: #45c3d2;
+            font-weight: 600;
+            border-radius: 10px;
+            option{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .all-available-time{
+        .text-calendar{
+            margin: 10px 0;
+            color: #333;
+            font-size: 18px;
+            
+            span{
+                text-transform: uppercase;
+                margin-left: 5px;
+            }
+            
+        }
+
+        .time-content{
+            .time-content-btns{
+                display: flex;
+                gap: 15px;
+                flex-wrap: wrap;
+
+                button{
+                    padding: 8px 10px;
+                    border: none;
+                    outline: none;
+                    background-color: whitesmoke;
+    
+    
+                    border-radius: 3px;
+                    font-weight: 600;
+                    color: #45c3d2;
+    
+                    &:hover{
+                        background-color: rgb(233, 129, 97);
+                        color: white;
+                    }
+                }
+
+                .btn-vie{
+                    width: 90px;
+                    height: 50px;
+                    border-radius: 10px;
+                    background-color: rgba(105, 100, 100, 0.14);
+                }
+
+                .btn-en{
+                    min-width: 170px;
+                }
+
+                .no-schedule{
+                    font-style: italic;
+                    font-size: 14px;
+                }
+            }
+            .book-free{
+                margin-top: 10px;
+                background-color: whitesmoke;
+                height: 25px;
+                border-radius: 10px;
+                width: 400px;
+                text-align: center;
+                font-size: 15px;
+            }
+        }
+    }
+}

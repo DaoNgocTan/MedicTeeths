@@ -1,0 +1,18 @@
+.clinic-child{
+    cursor: pointer;
+
+    .clinic-name{
+        padding: 16px 12px;
+        font-size: 16px;
+        font-weight: 600;
+
+        &:hover{
+            color: #45c3d2;
+        }
+    }
+}
+.section-body{
+    width: 700px;
+    height: inherit;
+    font-size: medium;
+}
